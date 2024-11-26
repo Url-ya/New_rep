@@ -1,0 +1,113 @@
+*{font-family: "Roboto", sans-serif;
+
+}
+.container{
+    max-width: auto;
+    width: 100%;
+    margin: auto;
+}
+.container_header_block{
+    background-color: black;
+    height: 50px;
+}
+
+.header_block, .navigation, .promo_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_block{
+    margin-top: 52px;
+    margin-bottom: 15px;
+}
+.navigation{
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.logo_header{
+    font-weight: 400;
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+}
+.link_header{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(251, 252, 248);
+    text-decoration: none;
+    margin-top: 5px;
+}
+.promo_block{
+    background: url('/bg.jpg');
+    height: 600px;
+    }
+.button_promo{
+    background: #1f161f;
+    border-radius: 100px;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(252, 248, 248);
+    padding: 16px 38px;
+    margin-top: 31px;
+    margin-left: 150px;
+    padding: 13px 60px;
+}
+.promo_desc{
+    width: 700px;
+}
+.promo_desc > p{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 158%;
+    letter-spacing: o,2px;
+    color: black;
+    margin-left: 150px;
+}
+.promo_img{
+width: 730px;
+height: 730px;
+object-fit: fill;
+}
+
+.search_header{
+        margin-top: 11px;
+        font-weight: 400;
+        font-size: 17px;
+        background-color: #080811;
+        border-color: beige;
+        }
+.button_search{
+    background-color: #070309;
+    height: 30px;
+    color: aliceblue;
+    border-color: aliceblue;
+    }
+    .carousel{
+        width: auto;
+        height: 333;
+        margin-top: 0%;
+    }
+    .footer{
+        background: #000;
+        width: auto;
+        height: 70px;
+    }
+    .footer-content-right {
+        padding-right:40px;
+        margin-top:20px;
+        float:right;
+         }
+      
+      .icon-style {
+        height:40px;
+        margin-left:20px;
+        margin-top:5px;
+        }
+      .icon-style:hover {
+       background-color:yellow;
+        padding:5px;
+        }
+
